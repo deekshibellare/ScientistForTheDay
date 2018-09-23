@@ -21,7 +21,7 @@
                                 <rect key="frame" x="0.0" y="116" width="375" height="551"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="sectionHeader2" rowHeight="70" id="odF-17-qcG" customClass="DaySectionHeaderCell" customModule="Scientist_for_the_Day" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="header" rowHeight="70" id="odF-17-qcG" customClass="DaySectionHeaderCell" customModule="Scientist_for_the_Day" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="70"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="odF-17-qcG" id="ofh-bY-s6D">
@@ -39,6 +39,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <constraints>
                                                 <constraint firstItem="gfa-KI-ebp" firstAttribute="leading" secondItem="Mdr-Hy-t5y" secondAttribute="leading" constant="-5" id="JcD-U9-6vb"/>
                                                 <constraint firstItem="Mdr-Hy-t5y" firstAttribute="top" secondItem="ofh-bY-s6D" secondAttribute="top" constant="25" id="OG8-iS-pfi"/>
@@ -50,13 +51,13 @@
                                                 <constraint firstItem="gfa-KI-ebp" firstAttribute="trailing" secondItem="Mdr-Hy-t5y" secondAttribute="trailing" constant="5" id="xRW-UC-pze"/>
                                             </constraints>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <connections>
                                             <outlet property="titleBackgroundView" destination="gfa-KI-ebp" id="aJR-Pp-3li"/>
                                             <outlet property="titleLabel" destination="Mdr-Hy-t5y" id="xgL-eS-lHX"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="sectionHeader" rowHeight="393" id="wLp-eV-udB" customClass="ScientistOfTheDayCell" customModule="Scientist_for_the_Day" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="scientistOfTheDay" rowHeight="393" id="wLp-eV-udB" customClass="ScientistOfTheDayCell" customModule="Scientist_for_the_Day" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="98" width="375" height="393"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="wLp-eV-udB" id="84y-l8-y45">
