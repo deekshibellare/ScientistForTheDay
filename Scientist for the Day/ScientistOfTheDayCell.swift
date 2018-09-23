@@ -18,7 +18,7 @@ class ScientistOfTheDayCell:UITableViewCell {
     
     override func awakeFromNib() {
         nameLabel.adjustsFontForContentSizeCategory = true
-        nameLabel.font = UIFontMetrics.default.scaledFont(for: UIFont.georgiaBold(ofSize:16))
+        nameLabel.font = UIFontMetrics.default.scaledFont(for: UIFont.georgiaBold(ofSize:25))
         
         
         briefDetails.adjustsFontForContentSizeCategory = true
