@@ -16,4 +16,15 @@ class ScientistOfTheDayCell:UITableViewCell {
     @IBOutlet weak var lifeSpanLabel:UILabel!
     @IBOutlet weak var briefDetails:UILabel!
     
+    override func awakeFromNib() {
+        nameLabel.adjustsFontForContentSizeCategory = true
+        nameLabel.font = UIFontMetrics.default.scaledFont(for: UIFont.georgiaBold(ofSize:16))
+        
+        
+        briefDetails.adjustsFontForContentSizeCategory = true
+        briefDetails.font = UIFontMetrics.default.scaledFont(for: UIFont.sfUITextRegular(ofSize:13))
+        
+        
+    }
+    
 }

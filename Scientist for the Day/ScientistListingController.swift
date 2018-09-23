@@ -24,7 +24,7 @@ extension ScientistListingController: UITableViewDataSource {
         return 1
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 3
+        return 1
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -40,7 +40,7 @@ extension ScientistListingController : UITableViewDelegate {
     }
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let cell = tableView.dequeueReusableCell(withIdentifier: "header") as! DaySectionHeaderCell
-        cell.contentView.backgroundColor = UIColor.clear
+        cell.titleLabel.text = "Today"
         return cell
     }
 }
