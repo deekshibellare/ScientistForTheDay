@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		45B1239D21579B0E00A94797 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B1239C21579B0E00A94797 /* AppDelegate.swift */; };
-		45B1239F21579B0E00A94797 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B1239E21579B0E00A94797 /* ViewController.swift */; };
+		45B1239F21579B0E00A94797 /* ScientistListingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B1239E21579B0E00A94797 /* ScientistListingController.swift */; };
 		45B123A221579B0E00A94797 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45B123A021579B0E00A94797 /* Main.storyboard */; };
 		45B123A421579B0E00A94797 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45B123A321579B0E00A94797 /* Assets.xcassets */; };
 		45B123A721579B0E00A94797 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45B123A521579B0E00A94797 /* LaunchScreen.storyboard */; };
+		45B123AF21579B0E00A94797 /* ScientistOfTheDayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B123AE21579B0E00A94797 /* ScientistOfTheDayCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		45B1239921579B0E00A94797 /* Scientist for the Day.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scientist for the Day.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45B1239C21579B0E00A94797 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		45B1239E21579B0E00A94797 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		45B1239E21579B0E00A94797 /* ScientistListingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScientistListingController.swift; sourceTree = "<group>"; };
 		45B123A121579B0E00A94797 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		45B123A321579B0E00A94797 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45B123A621579B0E00A94797 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45B123A821579B0E00A94797 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45B123AE21579B0E00A94797 /* ScientistOfTheDayCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScientistOfTheDayCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				45B1239C21579B0E00A94797 /* AppDelegate.swift */,
-				45B1239E21579B0E00A94797 /* ViewController.swift */,
+				45B1239E21579B0E00A94797 /* ScientistListingController.swift */,
 				45B123A021579B0E00A94797 /* Main.storyboard */,
 				45B123A321579B0E00A94797 /* Assets.xcassets */,
 				45B123A521579B0E00A94797 /* LaunchScreen.storyboard */,
 				45B123A821579B0E00A94797 /* Info.plist */,
+				45B123AE21579B0E00A94797 /* ScientistOfTheDayCell.swift */,
 			);
 			path = "Scientist for the Day";
 			sourceTree = "<group>";
@@ -135,8 +138,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45B1239F21579B0E00A94797 /* ViewController.swift in Sources */,
+				45B1239F21579B0E00A94797 /* ScientistListingController.swift in Sources */,
 				45B1239D21579B0E00A94797 /* AppDelegate.swift in Sources */,
+				45B123AF21579B0E00A94797 /* ScientistOfTheDayCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
