@@ -34,7 +34,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		45B1239921579B0E00A94797 /* Scientist for the Day.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scientist for the Day.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45B1239921579B0E00A94797 /* ScientistForTheDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScientistForTheDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45B1239C21579B0E00A94797 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45B1239E21579B0E00A94797 /* ScientistListingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScientistListingController.swift; sourceTree = "<group>"; };
 		45B123A121579B0E00A94797 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -76,7 +76,7 @@
 		45B1239021579B0E00A94797 = {
 			isa = PBXGroup;
 			children = (
-				45B1239B21579B0E00A94797 /* Scientist for the Day */,
+				45B1239B21579B0E00A94797 /* ScientistForTheDay */,
 				45B1239A21579B0E00A94797 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -84,12 +84,12 @@
 		45B1239A21579B0E00A94797 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				45B1239921579B0E00A94797 /* Scientist for the Day.app */,
+				45B1239921579B0E00A94797 /* ScientistForTheDay.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		45B1239B21579B0E00A94797 /* Scientist for the Day */ = {
+		45B1239B21579B0E00A94797 /* ScientistForTheDay */ = {
 			isa = PBXGroup;
 			children = (
 				45B123D721579B0E00A94797 /* Fonts */,
@@ -103,7 +103,7 @@
 				45B123A821579B0E00A94797 /* Info.plist */,
 				45B123D521579B0E00A94797 /* FontHelper.swift */,
 			);
-			path = "Scientist for the Day";
+			path = ScientistForTheDay;
 			sourceTree = "<group>";
 		};
 		45B123D721579B0E00A94797 /* Fonts */ = {
@@ -148,9 +148,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		45B1239821579B0E00A94797 /* Scientist for the Day */ = {
+		45B1239821579B0E00A94797 /* ScientistForTheDay */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 45B123AB21579B0E00A94797 /* Build configuration list for PBXNativeTarget "Scientist for the Day" */;
+			buildConfigurationList = 45B123AB21579B0E00A94797 /* Build configuration list for PBXNativeTarget "ScientistForTheDay" */;
 			buildPhases = (
 				45B1239521579B0E00A94797 /* Sources */,
 				45B1239621579B0E00A94797 /* Frameworks */,
@@ -160,9 +160,9 @@
 			);
 			dependencies = (
 			);
-			name = "Scientist for the Day";
+			name = ScientistForTheDay;
 			productName = "Scientist for the Day";
-			productReference = 45B1239921579B0E00A94797 /* Scientist for the Day.app */;
+			productReference = 45B1239921579B0E00A94797 /* ScientistForTheDay.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -180,7 +180,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 45B1239421579B0E00A94797 /* Build configuration list for PBXProject "Scientist for the Day" */;
+			buildConfigurationList = 45B1239421579B0E00A94797 /* Build configuration list for PBXProject "ScientistForTheDay" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -193,7 +193,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				45B1239821579B0E00A94797 /* Scientist for the Day */,
+				45B1239821579B0E00A94797 /* ScientistForTheDay */,
 			);
 		};
 /* End PBXProject section */
@@ -383,7 +383,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Scientist for the Day/Info.plist";
+				INFOPLIST_FILE = ScientistForTheDay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -400,7 +400,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Scientist for the Day/Info.plist";
+				INFOPLIST_FILE = ScientistForTheDay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -415,7 +415,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		45B1239421579B0E00A94797 /* Build configuration list for PBXProject "Scientist for the Day" */ = {
+		45B1239421579B0E00A94797 /* Build configuration list for PBXProject "ScientistForTheDay" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				45B123A921579B0E00A94797 /* Debug */,
@@ -424,7 +424,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		45B123AB21579B0E00A94797 /* Build configuration list for PBXNativeTarget "Scientist for the Day" */ = {
+		45B123AB21579B0E00A94797 /* Build configuration list for PBXNativeTarget "ScientistForTheDay" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				45B123AC21579B0E00A94797 /* Debug */,
